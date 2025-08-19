@@ -1,9 +1,5 @@
-let lista = [1, 2, 3,];
-let elemen = 4;
-
-function agregarElemento(lista, elemen) {
-    lista.push(elemen);
-    return lista;
+let suma = 0;
+for (let i = 1; i <= 10; i++){
+    suma += i;
 }
-
-console.log(agregarElemento([1, 2, 3], 4));
+console.log(suma);
